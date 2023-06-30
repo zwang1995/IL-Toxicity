@@ -1,5 +1,3 @@
-Input file
-
 `IPC81.csv` provides information about chemical structures and IPC-81 values
 
 - column "no" is the assigned number of the IL in the dataset

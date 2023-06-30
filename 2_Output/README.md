@@ -8,3 +8,8 @@
 
 - the vertical index indicates the index of IL in the entire dataset (Note: start from 0)
 - the horizontal index indicates the index of the structural descriptor, corresponding to the index in "Structural_descriptor_list.csv"
+
+
+`Cross_validation_record.csv` presents the results of cross-validation
+
+`model.pkl` and `Results.csv` provide the trained FNN/SVM models and predicted values

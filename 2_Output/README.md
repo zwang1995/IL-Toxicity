@@ -3,3 +3,8 @@
 - the vertical index indicates the assigned number of the descriptor in the list
 - the horizontal index "0" is the text-form presentation of the descriptor
 - the horizontal index "1" is the frequency of the descriptor that appeared in all IL structures
+
+`Descriptor_vector.csv` presents the descriptor vectors of all ILs
+
+- the vertical index indicates the index of IL in the entire dataset (Note: start from 0)
+- the horizontal index indicates the index of the structural descriptor, corresponding to the index in "Structural_descriptor_list.csv"

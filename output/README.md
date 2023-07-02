@@ -6,7 +6,7 @@
 
 `descriptor_vector.csv` presents the descriptor vectors of all ILs
 
-- the vertical index indicates the index of IL in the entire dataset (start from 0)
+- the vertical index indicates the index of IL in the dataset (start from 0)
 - the horizontal index indicates the index of the structural descriptor, corresponding to the index in `structural_descriptor_list.csv`
 
 

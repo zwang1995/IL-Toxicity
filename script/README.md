@@ -3,4 +3,5 @@
 - `EarlyStopping.py`: a tool used in FNN training to determine the time of terminating the training of FNN models
 - `SVM-kFCV.py`: determine the hyper-parameters and the SVM model using the five-fold cross-validation
 
-Note: to train FNN models, run `FNN-kFCV.py` first and then run `FNN-kFCV-Further.py` with the optimal FNN structures obtained from `FNN-kFCV.py`; to train SVM models, run `SVM-kFCV.py` directly
+1. To train FNN models, run `FNN-kFCV.py` first and then run `FNN-kFCV-Further.py` with the optimal FNN structures obtained from `FNN-kFCV.py`
+2. To train SVM models, run `SVM-kFCV.py` directly

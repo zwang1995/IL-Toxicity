@@ -9,12 +9,6 @@ This repository contains the data and scripts involved in the publication:
 * [RDKit](https://www.rdkit.org/): cheminformatics
 * [PyTorch](https://pytorch.org/) & [scikit-learn](https://scikit-learn.org/stable/): development of ML models
 
-## Scripts 
-- `FNN-kFCV.py`: determine the hyper-parameters of the FNN model using the five-fold cross-validation
-- `FNN-kFCV-Further.py`: train FNN model based on the hyper-parameters determined by `FNN-kFCV.py`
-- `EarlyStopping.py`: determine the time to stop the training of FNN models
-- `SVM-kFCV.py`: determine the hyper-parameters and the SVM model using the five-fold cross-validation
-
 ## Authors
 * Zihao Wang: zwang@mpi-magdeburg.mpg.de
 * [Prof. Dr. Zhen Song](https://hgxy.ecust.edu.cn/2021/0906/c1270a132681/page.htm)

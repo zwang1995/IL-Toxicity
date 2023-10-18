@@ -1,8 +1,8 @@
-`structural_descriptor_list.csv` presents the list of structural descriptors
+`structural_descriptor_list.csv` presents the list of extracted structural descriptors
 
-- the vertical index indicates the assigned number of the descriptor in the list
-- the horizontal index `0` is the text-form presentation of the descriptor
-- the horizontal index `1` is the frequency of the descriptor that appeared in all IL structures
+- column `0` is the text-form representation of the descriptor
+- column `1` is the frequency of the descriptor appeared in all IL structures
+
 
 `descriptor_vector.csv` presents the descriptor vectors of all ILs
 
@@ -10,6 +10,9 @@
 - the horizontal index indicates the index of the structural descriptor, corresponding to the index in `structural_descriptor_list.csv`
 
 
-`cross_validation_record.csv` presents the results of cross-validation
+`cross_validation_record.csv` and `results.csv` present the cross-validation results and predicted values
 
-`model.pkl` and `results.csv` provide the trained FNN/SVM models and predicted values
+`model.pkl` is the developed FNN/SVM model
+
+
+`pred_for_SMILES_list.csv` stores the SMILES strings of ILs to be predicted

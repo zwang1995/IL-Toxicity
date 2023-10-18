@@ -15,4 +15,4 @@
 `model.pkl` is the developed FNN/SVM model
 
 
-`pred_for_SMILES_list.csv` stores the SMILES strings of ILs to be predicted
+`pred_for_SMILES_list.csv` gives the FNN/SVM predictions of ILs provided in `../data/SMILES_list_for_pred.csv`

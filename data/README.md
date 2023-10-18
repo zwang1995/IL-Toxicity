@@ -6,3 +6,4 @@
 - column `logEC50` is the logEC50 value of the IL regarding toxicity in IPC-81
 - column `set` indicate whether the IL is included in the training or test set
 
+`SMILES_list_for_pred.csv` stores the SMILES strings of ILs to be predicted

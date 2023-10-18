@@ -10,6 +10,6 @@ This repository contains the data and scripts involved in the publication:
 * [PyTorch](https://pytorch.org/) & [scikit-learn](https://scikit-learn.org/stable/): development of ML models
 
 ## Authors
-* Zihao Wang: zwang@mpi-magdeburg.mpg.de
+* [Zihao Wang](https://www.mpi-magdeburg.mpg.de/person/109361/842836)
 * [Prof. Dr. Zhen Song](https://hgxy.ecust.edu.cn/2021/0906/c1270a132681/page.htm)
 * [Prof. Dr.-Ing. Teng Zhou](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Teng/tengzhou)

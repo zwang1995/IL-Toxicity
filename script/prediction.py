@@ -75,19 +75,28 @@ feature_num = len(group_index)
 df = pd.read_csv("../data/SMILES_list_for_pred.csv", usecols=["smiles"])
 smiles = df.smiles.tolist()
 
-print("Total number of imported smiles:", len(smiles))
-feature_matrix = np.zeros((len(smiles), feature_num))
+n_IL = len(smiles)
+print(f"-> Total number of imported SMILES strings: {n_IL}")
+feature_matrix = np.zeros((n_IL, feature_num))
 
+n_valid = 0
 for (i, smile) in enumerate(smiles):
-    group_list = Encoding(smile)
-    for group in group_list:
-        try:
-            j = group_index[group]
-            feature_matrix[i, j] += 1
-        except KeyError as e:
-            print(f"ERROR: a new functional group {group} found in IL#{i + 1} with the SMILES {smile}")
-            feature_matrix[i, :] = 0
-            break
+    try:
+        group_list = Encoding(smile)
+        for group in group_list:
+            try:
+                j = group_index[group]
+                feature_matrix[i, j] += 1
+            except KeyError as e:
+                print(f"ERROR: a new functional group {group} found in IL#{i + 1} with the SMILES {smile}")
+                feature_matrix[i, :] = 0
+                break
+        else:
+            n_valid += 1
+    except Exception as e:
+        feature_matrix[i, :] = 0
+
+print(f"-> Features are successfully extracted for {n_valid} out of {n_IL} ILs")
 
 if "FNN" == "FNN":
     print("-> FNN Model Activated")
